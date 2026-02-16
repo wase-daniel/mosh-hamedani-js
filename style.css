@@ -1,5 +1,31 @@
-h1 {
-  background-color: black;
-  color: red;
-  border: 9px solid white;
+.container {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+
+  background-color: antiquewhite;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+#logo-1 {
+  margin-right: auto;
+  margin-left: 1em;
+}
+.box {
+  display: grid;
+  margin-right: 1em;
+  color: black;
+  font-size: 20pt;
+}
+img {
+  margin-top: 150px;
+  margin-left: 600px;
+
+  height: 300px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 5px 5px rgb(64, 64, 64);
 }
