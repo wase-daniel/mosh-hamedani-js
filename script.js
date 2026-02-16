@@ -1,6 +1,8 @@
 var mun = [
-  ["gon", 1],
-  ["kiluwa", e],
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
 ];
-dan = mun[{1}];
-console.log(dan);
+var min = mun[2][1];
+console.log(min);
