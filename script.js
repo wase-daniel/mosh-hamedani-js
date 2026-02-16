@@ -1,2 +1,3 @@
-var sum = 10 + 1.7;
-console.log(sum);
+var myString = "nitwa daniel ";
+ourString = "mwiriwe " + myString + "wase ";
+console.log(ourString);
