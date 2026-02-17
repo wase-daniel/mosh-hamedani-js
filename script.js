@@ -1,4 +1,5 @@
-function newVariable(a, b) {
-  console.log(a - b);
-}
-newVariable(10 - 5);
+var newVar = [
+  ["dan", "akaza"],
+  [1, 34],
+];
+newData = newVar[1][2];

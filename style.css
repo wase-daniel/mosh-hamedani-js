@@ -13,6 +13,7 @@
 #logo-1 {
   margin-right: auto;
   margin-left: 1em;
+  justify-content: baseline;
 }
 .box {
   display: grid;
