@@ -1,4 +1,4 @@
-function newVariable(a,b) {
-    console.log(a-b)
-    control quality to the and the () 
+function newVariable(a, b) {
+  console.log(a - b);
 }
+newVariable(10 - 5);
