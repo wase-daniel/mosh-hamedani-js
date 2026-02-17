@@ -1,3 +1,9 @@
-var ourArray = ["daniel", "wase", "sewa"];
-ourArray.push(["happy", "day"]);
-console.log(ourArray);
+function danWase() {
+  console.log("sup ya'll");
+}
+danWase();
+danWase();
+
+danWase();
+danWase();
+danWase();
