@@ -17,8 +17,6 @@
   align-items: center;
 }
 .box {
-  display: grid;
-  margin-right: 1em;
 }
 img {
   margin-top: 150px;
