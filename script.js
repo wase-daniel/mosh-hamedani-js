@@ -1,5 +1,4 @@
-function newValiable(a, b) {
-  console.log(a + b);
+function newVariable(a,b) {
+    console.log(a-b)
+    control quality to the and the () 
 }
-
-newValiable(10, 34);
