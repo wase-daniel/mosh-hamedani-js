@@ -1,9 +1,5 @@
-function danWase() {
-  console.log("sup ya'll");
+function newValiable(a, b) {
+  console.log(a + b);
 }
-danWase();
-danWase();
 
-danWase();
-danWase();
-danWase();
+newValiable(10, 34);
