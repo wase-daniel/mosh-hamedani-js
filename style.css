@@ -1,29 +1,3 @@
 .container {
-  min-height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 4px solid white;
-
-  background-color: antiquewhite;
-  margin-left: -5px;
-  margin-top: -5px;
-}
-
-#logo-1 {
-  margin-right: auto;
-  margin-left: 1em;
-  justify-content: baseline;
-  align-items: center;
-}
-.box {
-}
-img {
-  margin-top: 150px;
-  margin-left: 600px;
-
-  height: 300px;
-  width: 400px;
-  border-radius: 8px;
-  box-shadow: 5px 5px rgb(64, 64, 64);
+  stroke-width: 0cap;
 }
