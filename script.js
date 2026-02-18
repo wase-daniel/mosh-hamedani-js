@@ -1,5 +1,5 @@
-function ourFunction() {
-  console.log("world of peace is about to end");
+function ourFunction(a, c) {
+  console.log(c + a);
 }
 
-ourFunction();
+ourFunction(30, 40);
