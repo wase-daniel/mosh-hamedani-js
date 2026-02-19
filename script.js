@@ -1,8 +1,4 @@
-var outerWear = "t-shirt";
-
-function outfit() {
-  return (outerWear = "shirt");
-
-  var outerWear;
+function useReturn(num) {
+  return num + 7;
 }
-console.log(outfit());
+console.log(useReturn(10));
