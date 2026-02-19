@@ -1,4 +1,5 @@
-function useReturn(num) {
-  return num + 7;
+var changed;
+function changeNum(num) {
+  return (num + 5) / 3;
 }
-console.log(useReturn(10));
+console.log(changeNum(5));
