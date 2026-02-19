@@ -1,17 +1,8 @@
-function solution(numbers) {
-  let result = [];
+var outerWear = "t-shirt";
 
-  for (let i = 0; i < numbers.length - 2; i++) {
-    let a = numbers[i];
-    let b = numbers[i + 1];
-    let c = numbers[i + 2];
+function outfit() {
+  return (outerWear = "shirt");
 
-    if ((a < b && b > c) || (a > b && b < c)) {
-      result.push(1);
-    } else {
-      result.push(0);
-    }
-  }
-
-  return result;
+  var outerWear;
 }
+console.log(outfit());
