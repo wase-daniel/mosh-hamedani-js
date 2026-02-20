@@ -1,10 +1,12 @@
-const button = document.getElementById("prankBtn");
+let width = 0;
+const progressBar = document.getElementById("myBar");
 
-button.addEventListener("mouseover", () => {
-  // This moves the button to a random spot on the screen
-  const x = Math.random() * (window.innerWidth - 100);
-  const y = Math.random() * (window.innerHeight - 50);
-
-  button.style.left = `${x}px`;
-  button.style.top = `${y}px`;
-});
+function startLoading() {
+  setInterval(() => {
+    if (width < 99) {
+      // It stops at 99% and never hits 100!
+      width++;
+      progressBar.style.width = width + "%";
+    }
+  }, 100); // Moves every 0.1 seconds
+}
