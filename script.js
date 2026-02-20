@@ -1,10 +1,14 @@
-function elseIF(num) {
-  if (num > 10) {
-    return "number is greater than 10";
-  } else if (num < 5) {
-    return "number is less than 5";
+function elseIfStatement(num) {
+  if (num < 5) {
+    return "tiny";
+  } else if (num < 10) {
+    return "small";
+  } else if (num < 15) {
+    return "medium";
+  } else if (num < 20) {
+    return "large";
   } else {
-    return "between 10 and 5";
+    return "huge";
   }
 }
-console.log(elseIF(8));
+console.log(elseIfStatement(20));
