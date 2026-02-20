@@ -1,8 +1,7 @@
-function ourFunctionStatement(isItTrue) {
-  if (isItTrue) {
-    return "yes it's true";
-  } else {
-    return "no it's false";
+function testEqual(val) {
+  if (val == 12) {
+    return "equal";
   }
+  return "not equal";
 }
-console.log(ourFunctionStatement(false));
+console.log(testEqual(12));
