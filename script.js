@@ -1,8 +1,7 @@
-function checkingNum(num) {
-  if (num <= 20 && num >= 10) {
-    return "it btn 20 and 10";
+function checkNum(num) {
+  if (num > 21 || num < 11) {
+    return "outside";
   }
-  return "not";
+  return "inside";
 }
-
-console.log(checkingNum(1));
+console.log(checkNum(22));
