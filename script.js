@@ -1,10 +1,8 @@
 function checkingNum(num) {
-  if (num > 0) {
-    return "positive";
+  if (num <= 20 && num >= 10) {
+    return "it btn 20 and 10";
   }
-  if (num < 0) {
-    return "negative";
-  }
-  return "zero;";
+  return "not";
 }
-console.log(checkingNum(2));
+
+console.log(checkingNum(1));
