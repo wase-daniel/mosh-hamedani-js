@@ -1,6 +1,3 @@
 .container {
   background-color: gray;
-  color: brown;
-  display: flex;
-  justify-content: space-evenly;
 }

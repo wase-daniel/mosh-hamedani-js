@@ -1,10 +1,10 @@
-function greaterThan(num) {
-  if (num > 100) {
-    return "over 100";
+function checkingNum(num) {
+  if (num > 0) {
+    return "positive";
   }
-  if (num > 10) {
-    return "over 10";
+  if (num < 0) {
+    return "negative";
   }
-  return "10 or lessthan";
+  return "zero;";
 }
-console.log(greaterThan(10000));
+console.log(checkingNum(2));
