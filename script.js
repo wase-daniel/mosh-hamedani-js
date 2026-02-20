@@ -1,7 +1,10 @@
-function testEqual(val) {
-  if (val == 12) {
-    return "equal";
+function greaterThan(num) {
+  if (num > 100) {
+    return "over 100";
   }
-  return "not equal";
+  if (num > 10) {
+    return "over 10";
+  }
+  return "10 or lessthan";
 }
-console.log(testEqual(12));
+console.log(greaterThan(10000));
