@@ -18,9 +18,11 @@ function golfScore(par, strokes) {
     return names[3];
   } else if (strokes <= par + 1) {
     return names[4];
-  } else if (str
+  } else if (strokes <= par + 2) {
     return names[5];
-  } else if { SKANLASNLCXNASLNCLASINLCASLNCNW;OQND
-  }
+  } else if (strokes <= par + 3) {
+    return names[6];
+  }else if (strokes <= par + 3) {
+    return names[6];
 }
 console.log(golfScore(5, 4));
