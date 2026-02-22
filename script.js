@@ -21,7 +21,6 @@ function golfScore(par, strokes) {
   } else if (strokes <= par + 2) {
     return names[5];
   } else if (strokes <= par + 3) {
-    return names[6];
   }
 }
 console.log(golfScore(5, 4));
