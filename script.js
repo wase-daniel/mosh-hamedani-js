@@ -20,7 +20,7 @@ function golfScore(par, strokes) {
     return names[4];
   } else if (strokes <= par + 2) {
     return names[5];
-  } else if {
+  } else if { SKANLASNLCXNASLNCLASINLCASLNCNW;OQND
   }
 }
 console.log(golfScore(5, 4));
