@@ -9,10 +9,15 @@ function switchStatement(val) {
       break;
     case 3:
       answer = "third";
+      break;
     case 4:
       answer = "fourth";
+      break;
+
+    default:
+      answer = "invalid";
       break;
   }
   return answer;
 }
-console.log(switchStatement(3));
+console.log(switchStatement(5));
