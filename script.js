@@ -1,24 +1,22 @@
 function multipleSwitch(num) {
   var answer = "";
   switch (num) {
+    case "dan":
+      answer = "wase";
+      break;
     case 1:
-    case 2:
-    case 3:
-      answer = "low";
+      answer = "first";
       break;
-    case 4:
-    case 5:
-    case 6:
-      answer = "mid";
+    case "bob":
+      answer = "marlon";
       break;
-    case 7:
-    case 8:
-    case 9:
-      answer = "high";
+    case 90:
+      answer = "ninety";
       break;
-    default:
-      answer = "inlad";
+    case "do":
+      answer = "mebi";
+      break;
   }
   return answer;
 }
-console.log(multipleSwitch(0));
+console.log(multipleSwitch("bob"));
