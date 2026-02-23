@@ -1,12 +1,19 @@
-function danWase(num) {
-  if (num >= 100) {
-    return "you are not bad";
-  } else if (num > 80) {
-    return "smart";
-  } else if (num >= 50) {
-    return "genious";
-  } else {
-    return "u ass";
+function switchStatements(num) {
+  var answer = "";
+  switch (num) {
+    case 1:
+      answer = "number 1";
+      break;
+    case 2:
+      answer = "number 2";
+      break;
+    case 3:
+      answer = "number 3";
+      break;
+    case 4:
+      answer = "number 4";
+      break;
   }
+  return "not in";
 }
-console.log(danWase(8));
+console.log(switchStatements(1));
