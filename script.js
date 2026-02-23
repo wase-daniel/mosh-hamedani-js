@@ -1,4 +1,7 @@
 function mulwitch(a, b) {
-  return a < b;
+  if ((a, b < 0)) {
+    return "crazy";
+  }
+  return "mud";
 }
-console.log(12, 21);
+console.log(mulwitch(2, 21));
