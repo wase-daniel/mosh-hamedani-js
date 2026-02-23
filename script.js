@@ -16,4 +16,5 @@ function switchStatements(num) {
   }
   return "not in";
 }
-console.log(switchStatements(1));
+switchStatements();
+console.log(answer);
