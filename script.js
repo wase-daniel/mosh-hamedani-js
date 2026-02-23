@@ -16,7 +16,9 @@ function multipleSwitch(num) {
     case 9:
       answer = "high";
       break;
+    default:
+      answer = "inlad";
   }
   return answer;
 }
-console.log(multipleSwitch(7));
+console.log(multipleSwitch(0));
