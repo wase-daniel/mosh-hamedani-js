@@ -1,23 +1,22 @@
-function switchStatement(val) {
+function multipleSwitch(num) {
   var answer = "";
-  switch (val) {
+  switch (num) {
     case 1:
-      answer = "first";
-      break;
     case 2:
-      answer = "second";
-      break;
     case 3:
-      answer = "third";
+      answer = "low";
       break;
     case 4:
-      answer = "fourth";
+    case 5:
+    case 6:
+      answer = "mid";
       break;
-
-    default:
-      answer = "invalid";
+    case 7:
+    case 8:
+    case 9:
+      answer = "high";
       break;
   }
   return answer;
 }
-console.log(switchStatement(5));
+console.log(multipleSwitch(7));
