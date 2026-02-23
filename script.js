@@ -1,18 +1,18 @@
-function ariaChallenge(val) {
-  var color = "";
-  switch (val) {
-    case "umutuku":
-      color = "red";
+function calculateMealPrice(items, quantity) {
+  var quantity = "";
+  var price = "";
+  switch (items) {
+    case "inyama":
+      price = 2000 * quantity;
       break;
-    case "ubururu":
-      color = "blue";
+    case "inishyimbo":
+      price = 1000 * quantity;
       break;
-    case "icyatsi":
-      color = "green";
-      break;
+    case "umuceri":
+      price = 1500 * quantity;
     default:
-      color = "ntabwo nzi iryo bara";
+      price = "ibyo ntabwo tubifite";
   }
-  return color;
+  return price;
 }
-console.log(ariaChallenge("umutuku"));
+console.log(calculateMealPrice("inyama", 2));
