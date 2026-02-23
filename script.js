@@ -1,20 +1,18 @@
-function switchStatements(num) {
+function switchStatement(val) {
   var answer = "";
-  switch (num) {
+  switch (val) {
     case 1:
-      answer = "number 1";
+      answer = "first";
       break;
     case 2:
-      answer = "number 2";
+      answer = "second";
       break;
     case 3:
-      answer = "number 3";
-      break;
+      answer = "third";
     case 4:
-      answer = "number 4";
+      answer = "fourth";
       break;
   }
   return answer;
 }
-
-console.log(switchStatements(1));
+console.log(switchStatement(3));
