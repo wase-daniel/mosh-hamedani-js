@@ -14,7 +14,7 @@ function switchStatements(num) {
       answer = "number 4";
       break;
   }
-  return "not in";
+  return answer;
 }
-switchStatements();
-console.log(answer);
+
+console.log(switchStatements(1));
