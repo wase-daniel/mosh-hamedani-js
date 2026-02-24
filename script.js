@@ -1,8 +1,8 @@
 var ObjectList = {
-  name: "daniel",
-  age: 20,
-  height: 62,
+  "my name": "daniel",
+  "the age": 20,
+  "your height": 62,
 };
 
-var acceses = ObjectList.height;
+var acceses = ObjectList["my name"];
 console.log(acceses);
