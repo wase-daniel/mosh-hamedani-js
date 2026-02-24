@@ -1,6 +1,8 @@
-var myDog = {
-  name: "kazungu",
-  legs: 4,
-  tail: 1,
+var ObjectList = {
+  name: "daniel",
+  age: 20,
+  height: 62,
 };
-console.log(myDog);
+
+var acceses = ObjectList.height;
+console.log(acceses);
