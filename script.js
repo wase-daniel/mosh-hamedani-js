@@ -4,5 +4,5 @@ var ObjectList = {
   "your height": 62,
 };
 
-var acceses = ObjectList["my name"];
+var acceses = ObjectList["the age"];
 console.log(acceses);
