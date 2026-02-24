@@ -1,12 +1,19 @@
-function ariaChallenge(val) {
-  switch (val) {
-    case "umutuku":
-      return "red";
-    case "ubururu":
-      return "blue";
-    case "icyatsi":
-      return "green";
+function calculateMealPrice(item, quantity) {
+  let price;
+
+  switch (item) {
+    case "Inyama":
+      price = 2000;
+      break;
+    case "Ibishyimbo":
+      price = 1000;
+      break;
+    case "Umuceri":
+      price = 1500;
+      break;
     default:
-      return "ntabwo nzi iryo bara";
+      return "Ibyo ntabwo tubifite!";
   }
+
+  return price * quantity + " RWF";
 }
