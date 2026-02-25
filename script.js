@@ -3,5 +3,6 @@ var testObject = {
   13: "derick",
   14: "daniel",
 };
-var answer = 12;
-var solution = testObject[answer];
+var playeNumber = 12;
+var solution = testObject[playeNumber];
+console.log(solution);
