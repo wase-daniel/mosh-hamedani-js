@@ -1,11 +1,7 @@
-var ObjectList = {
-  "my name": "daniel",
-  "the age": 20,
-  "your height": 62,
-  gander: "male",
+var testObject = {
+  12: "munyanyu",
+  13: "derick",
+  14: "daniel",
 };
-
-var acceses = ObjectList["your height"];
-var munyanyu = ObjectList.gander;
-
-console.log(acceses, munyanyu);
+var answer = 12;
+var solution = testObject[answer];
