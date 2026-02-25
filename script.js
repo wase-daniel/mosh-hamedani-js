@@ -5,7 +5,7 @@ var testObject = {
   freinds: "two friends",
 };
 
-testObject.name = "fab";
+testObject.heght = 4;
 
-var munyanyu = testObject.name;
+var munyanyu = testObject.heght;
 console.log(munyanyu);
