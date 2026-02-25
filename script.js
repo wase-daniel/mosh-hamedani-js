@@ -5,7 +5,7 @@ var testObject = {
   "to freinds": "two friends",
 };
 
-testObject["my name"] = 4;
+testObject["my group"] = 6;
 
-var munyanyu = testObject["my name"];
+var munyanyu = testObject["my group"];
 console.log(munyanyu);
