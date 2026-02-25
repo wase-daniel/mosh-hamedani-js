@@ -1,8 +1,11 @@
 var testObject = {
-  12: "munyanyu",
-  13: "derick",
-  14: "daniel",
+  name: "pazo",
+  age: 3,
+  tail: 1,
+  freinds: "two friends",
 };
-var playeNumber = 12;
-var solution = testObject[playeNumber];
-console.log(solution);
+
+testObject.name = "fab";
+
+var munyanyu = testObject.name;
+console.log(munyanyu);
