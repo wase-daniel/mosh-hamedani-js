@@ -1,11 +1,14 @@
-var objectList= {
-  1 : "one",
-  2 : "two",
-  3 : "three",
-  4 : "four",
-}
-
-function checkObj(checkProp) [
-  if (objectList.hasOwnProperty(checkProp)  );
-  return checkObj
-]
+var student = {
+  name: "Daniel",
+  age: 17,
+  address: {
+    country: "Rwanda",
+    city: "Kigali",
+    location: {
+      sector: "Kicukiro",
+      street: "KK 15 Ave",
+    },
+  },
+};
+var accessStudent = student.address.country;
+console.log(accessStudent);
