@@ -1,11 +1,11 @@
 var testObject = {
-  name: "pazo",
-  age: 3,
-  tail: 1,
-  freinds: "two friends",
+  "my name": "pazo",
+  "your age": 3,
+  "his tail": 1,
+  "to freinds": "two friends",
 };
 
-testObject.heght = 4;
+testObject["my name"] = 4;
 
-var munyanyu = testObject.heght;
+var munyanyu = testObject["my name"];
 console.log(munyanyu);
