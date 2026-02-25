@@ -6,5 +6,6 @@ var ObjectList = {
 };
 
 var acceses = ObjectList["your height"];
-var accesesVal = ObjectList.gander;
-console.log(acceses);
+var munyanyu = ObjectList.gander;
+
+console.log(acceses, munyanyu);
