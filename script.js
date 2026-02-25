@@ -3,12 +3,12 @@ var student = {
   age: 17,
   address: {
     country: "Rwanda",
-    city: "Kigali",
+    "MY city": "Kigali",
     location: {
       sector: "Kicukiro",
       street: "KK 15 Ave",
     },
   },
 };
-var accessStudent = student.address.location.street;
-console.log(accessStudent);
+var accessStudentAddress = student.address["MY city"];
+console.log(accessStudentAddress);
