@@ -5,7 +5,7 @@ var testObject = {
   "to freinds": "two friends",
 };
 
-  delete testObject["to freinds"] = 6;
+delete testObject["to freinds"];
 
-var munyanyu = testObject["my group"];
+var munyanyu = testObject["to freinds"];
 console.log(munyanyu);
