@@ -10,5 +10,5 @@ var student = {
     },
   },
 };
-var accessStudent = student.address.country;
+var accessStudent = student.address.location.street;
 console.log(accessStudent);
