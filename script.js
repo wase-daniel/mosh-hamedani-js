@@ -8,3 +8,6 @@ var myPlants = [
     list: ["fir", "pine", "birch"],
   },
 ];
+
+var access = myPlants[0].list[2];
+console.log(access);
