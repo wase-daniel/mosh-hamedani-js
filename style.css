@@ -1,5 +1,3 @@
-.container {
-  background-color: gray;
-  color: blue;
-  display: grid;
+.parent-container {
+  display: flex;
 }
