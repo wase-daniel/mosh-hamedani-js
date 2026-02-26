@@ -9,5 +9,5 @@ var myPlants = [
   },
 ];
 
-var access = myPlants[1].list[1];
+var access = myPlants[0].list[1];
 console.log(access);
