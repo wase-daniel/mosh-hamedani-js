@@ -10,5 +10,4 @@ var student = {
     },
   },
 };
-var accessStudentAddress = student.address["MY city"];
-console.log(accessStudentAddress);
+var accessAddress = student.location.street;
