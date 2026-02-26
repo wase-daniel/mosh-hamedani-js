@@ -10,4 +10,5 @@ var student = {
     },
   },
 };
-var accessAddress = student.location.street;
+var accessAddress = student.address.location.street;
+console.log(accessAddress);
