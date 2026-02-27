@@ -4,5 +4,4 @@ while (j < 5) {
   j++;
 }
 // Output:
-// While loop iteration: 0
-// While loop iteration: 1
+//
