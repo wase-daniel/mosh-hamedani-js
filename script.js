@@ -1,13 +1,9 @@
-var myPlants = [
-  {
-    type: "flowers",
-    list: ["rose", "tulip", "dandelion"],
-  },
-  {
-    type: "trees",
-    list: ["fir", "pine", "birch"],
-  },
-];
-
-var access = myPlants[0].list[1];
-console.log(access);
+for (let i = 0; i < 5; i++) {
+  console.log("For loop iteration:", i);
+}
+// Output:
+// For loop iteration: 0
+// For loop iteration: 1
+// For loop iteration: 2
+// For loop iteration: 3
+// For loop iteration: 4
