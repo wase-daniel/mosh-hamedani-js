@@ -1,8 +1,11 @@
-for (let i = 0; i < 5; i++) {
-  console.log("For loop iteration:", i);
-}
-let j = 0;
-while (j < 5) {
-  console.log("While loop iteration:", j);
-  j++;
-}
+let k = 0;
+do {
+  console.log("Do-While loop iteration:", k);
+  k++;
+} while (k < 5);
+// Output:
+// Do-While loop iteration: 0
+// Do-While loop iteration: 1
+// Do-While loop iteration: 2
+// Do-While loop iteration: 3
+// Do-While loop iteration: 4
