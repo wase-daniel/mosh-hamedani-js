@@ -1,10 +1,10 @@
 var days = {
-  one: "monday",
-  two: "tuesday",
-  three: "wednesday",
-  four: "thursday",
-  five: "friday",
+  "my one": "monday",
+  "the two": "tuesday",
+  "for three": "wednesday",
+  "is four": "thursday",
+  "these five": "friday",
 };
 
-var week = days.three;
+var week = days["for three"];
 console.log(week);
