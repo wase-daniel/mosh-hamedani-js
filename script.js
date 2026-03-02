@@ -6,5 +6,5 @@ var days = {
   five: "friday",
 };
 
-var week = days.five;
+var week = days.four;
 console.log(week);
