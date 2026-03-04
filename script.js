@@ -1,14 +1,9 @@
-var myPlants = [
-  {
-    type: "flower",
-    list: ["rose", "tulp", "dendeliom"],
-  },
+var myLoop = [];
 
-  {
-    type: "trees",
-    list: ["fir", "pine", "birth"],
-  },
-];
+var i = 0;
 
-var access = myPlants[0].list[2];
-console.log(access);
+while (i < 5) {
+  myLoop.push(i);
+  i++;
+}
+console.log(myLoop);
