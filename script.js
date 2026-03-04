@@ -1,6 +1,3 @@
-var myArray = [];
-
-for (var i = 10; i <= 15; i++) {
-  myArray.unshift(i);
+for (i = 0; i < 5; i++) {
+  console.log("hello world", i);
 }
-console.log(myArray);
