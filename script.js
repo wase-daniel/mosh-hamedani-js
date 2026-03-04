@@ -9,3 +9,5 @@ var myStorage = {
     },
   },
 };
+var access = myStorage.car.inside["glove box"];
+console.log(access);
