@@ -1,2 +1,8 @@
-let user = { firstName: "wase", sName: "daniel" };
-for (key in user) console.log(user[key]);
+let users = {
+  firstName: "wase",
+  sName: "daniel",
+  height: "tall",
+  location: "remera",
+};
+
+for (key in users) console.log(users[key]);
