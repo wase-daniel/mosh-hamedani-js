@@ -1,5 +1,5 @@
-var group = ["dog", "cat", "horse", "tiger"];
+var goup = ["djkafl", "af8oqeif", "fouheofiilenf", "ewuofgoihriswglbr"];
 
-group.forEach((animals) => {
-  console.log(animals);
+goup.forEach((random) => {
+  console.log(random);
 });
