@@ -1,7 +1,5 @@
-let i = 0;
+var names = ["dan", "fafe", "flnh", "riuwo"];
 
-while (i < 10) {
-  console.log(i);
-  i++;
-  if (i === 5) break;
+for (i = 0; i < names.length; i++) {
+  if (names === 3) break;
 }
