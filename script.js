@@ -1,5 +1,8 @@
-var goup = ["djkafl", "af8oqeif", "fouheofiilenf", "ewuofgoihriswglbr"];
+var goup = [
+  ["dan", 1],
+  ["muzehe", "dudu"],
+];
 
-goup.forEach((random) => {
+goup[0].forEach((random) => {
   console.log(random);
 });
