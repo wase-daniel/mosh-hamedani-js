@@ -1,8 +1,7 @@
-let users = {
-  firstName: "wase",
-  sName: "daniel",
-  height: "tall",
-  location: "remera",
-};
+let i = 0;
 
-for (key in users) console.log(users[key]);
+while (i < 10) {
+  console.log(i);
+  i++;
+  if (i === 5) break;
+}
