@@ -3,6 +3,6 @@ var goup = [
   ["muzehe", "dudu"],
 ];
 
-goup[1].forEach((random) => {
+goup[1].forEach((ranm) => {
   console.log(random);
 });
