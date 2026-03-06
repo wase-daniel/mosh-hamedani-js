@@ -4,5 +4,5 @@ var goup = [
 ];
 
 goup[1].forEach((nm) => {
-  console.log(rand
+  console.log(ra
 }
