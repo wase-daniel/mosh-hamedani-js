@@ -1,5 +1,5 @@
 var goup = [
-  ["dan", 1],
+  ["dan",
   ["muzehe", "dudu"],
 ];
 
