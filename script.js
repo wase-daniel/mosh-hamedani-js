@@ -1,6 +1,6 @@
 var goup = [
   ["dan",
-  ["muzehe", "dudu"],
+  ["muzehe", "dud
 ];
 
 goup[1].fo
