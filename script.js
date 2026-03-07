@@ -3,6 +3,4 @@ var goup = [
   ["muzehe", "dudu"],
 ];
 
-goup[1].forEacnm) => {
-  cons
-}
+goup[1].forEacn;
