@@ -3,4 +3,4 @@ var goup = [
   ["muzehe", "dudu"],
 ];
 
-goup[1].forE;
+goup[1].fo
