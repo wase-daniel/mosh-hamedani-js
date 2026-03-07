@@ -3,6 +3,6 @@ var goup = [
   ["muzehe", "dudu"],
 ];
 
-goup[1].forEach((nm) => {
-  consol
+goup[1].forEacnm) => {
+  cons
 }
