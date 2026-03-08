@@ -3,4 +3,4 @@ var goup = [
   ["muzehe", "dud
 ];
 
-goup
+g
