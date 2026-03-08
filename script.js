@@ -1,4 +1,4 @@
 var goup = [
   ["dan",
-  ["muzehe", "dud
+  ["muzehe", "d
 
