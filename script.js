@@ -1,4 +1,4 @@
-var goup = [
-  ["dan",
-  ["m
-
+function randomFraction() {
+  return math.random();
+}
+console.log(randomFraction());
