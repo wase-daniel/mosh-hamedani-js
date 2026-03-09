@@ -1,5 +1,4 @@
-function numberBetween(minNbr, maxNbr) {
+function returNRandomNbr(minNbr, maxNbr) {
   return Math.floor(Math.random() * (maxNbr - minNbr + 1)) + minNbr;
 }
-
-console.log(numberBetween(5, 15));
+console.log(returNRandomNbr(10, 20));
