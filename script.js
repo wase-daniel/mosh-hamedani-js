@@ -1,4 +1,4 @@
 function randomFraction() {
-  return math.random();
+  return Math.random();
 }
 console.log(randomFraction());
