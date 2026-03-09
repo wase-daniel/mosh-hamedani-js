@@ -1,4 +1,5 @@
-function randomFraction() {
-  return Math.floor(Math.random() * 15) + 1;
+function numberBetween(minNbr, maxNbr) {
+  return Math.floor(Math.random() * (maxNbr - minNbr + 1)) + minNbr;
 }
-console.log(randomFraction());
+
+console.log(numberBetween(5, 15));
