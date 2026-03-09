@@ -1,4 +1,5 @@
-function returNRandomNbr(minNbr, maxNbr) {
-  return Math.floor(Math.random() * (maxNbr - minNbr + 1)) + minNbr;
+function returningInt(str) {
+  return parseInt(str);
 }
-console.log(returNRandomNbr(10, 20));
+
+console.log("23");
