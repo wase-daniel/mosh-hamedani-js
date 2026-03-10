@@ -1,5 +1,5 @@
-function returningInt(str) {
-  return parseInt(str);
+function binaries(str) {
+  return parseInt(str, 2);
 }
 
-console.log("23");
+console.log(binaries(1001101));
