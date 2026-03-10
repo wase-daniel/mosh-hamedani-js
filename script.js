@@ -1,3 +1,5 @@
-const s = ["2", "3", "4"];
-s[0] = "1";
-console.log(s);
+function randomNumber(minNumber, maxNumber) {
+  return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+}
+
+console.log(randomNumber(1, 100));
