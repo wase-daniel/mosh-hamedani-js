@@ -1,4 +1,3 @@
-function ternaly(num) {
-  return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
-}
-console.log(ternaly(0));
+var car = "bmw";
+
+console.log(Car);
