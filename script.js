@@ -1,6 +1,5 @@
-var dan = 2;
-var dan = 84;
+var car = "dwao";
+var car = "liwhi";
+car = "fjepojf0";
 
-dan = "gat";
-
-console.log(dan);
+console.log(car);
