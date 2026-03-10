@@ -1,5 +1,4 @@
-function binaries(str) {
-  return parseInt(str, 2);
+function ternaly(num) {
+  return num > 0 ? "positive" : num < 0 ? "negative" : zero;
 }
-
-console.log(binaries(1001101));
+console.log(ternaly(3));
