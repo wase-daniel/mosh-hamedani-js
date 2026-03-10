@@ -1,4 +1,4 @@
 function ternaly(num) {
-  return num > 0 ? "positive" : num < 0 ? "negative" : zero;
+  return num > 0 ? "positive" : num < 0 ? "negative" : num = 0 ? "zero";
 }
-console.log(ternaly(-100));
+console.log(ternaly(0));
