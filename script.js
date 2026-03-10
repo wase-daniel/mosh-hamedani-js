@@ -1,5 +1,6 @@
-var x = 10;
-var x = 20; // allowed
-x = 30; // allowed
+var dan = 2;
+var dan = 84;
 
-console.log(x); // 30
+dan = "gat";
+
+console.log(dan);
