@@ -1,3 +1,4 @@
-document.body.style.backgroundColor = "gray";
+const username = "";
+const message = document.getElementById("welcome-msg");
 
-console.dir(document);
+message.textContent += username === "" ? " Guest" : username;
