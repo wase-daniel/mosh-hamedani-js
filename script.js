@@ -1,3 +1,3 @@
-document.text = "My website";
+document.title = "My website";
 
 console.dir(document);
