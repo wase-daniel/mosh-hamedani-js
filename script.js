@@ -1,4 +1,4 @@
-var newTimes = () => {
-  return new date();
+var newTimes = (a, b) => {
+  return (sum = a + b);
 };
-console.log(newTimes);
+console.log(newTimes(1, 5));
