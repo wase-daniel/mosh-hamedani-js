@@ -1,3 +1,3 @@
-document.title = "My website";
+document.body.style.backgroundColor = "gray";
 
 console.dir(document);
