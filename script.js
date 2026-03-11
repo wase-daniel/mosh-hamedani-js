@@ -1,4 +1,4 @@
-var greetings = () => {
+var newTimes = () => {
   return new date();
 };
-console.log(greetings);
+console.log(newTimes);
