@@ -1,4 +1,5 @@
-var newTimes = (a, b) => {
-  return (sum = a + b);
-};
-console.log(newTimes(1, 5));
+let str1 = "hello";
+let str2 = "world";
+
+let result = str1.concat(" ", str2);
+console.log(result);
