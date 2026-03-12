@@ -1,5 +1,7 @@
-let str1 = "hello";
-let str2 = "world";
-let str3 = "ziman";
-let result = str1.concat(" ", str2, " ", str3);
-console.log(result);
+let theSumOf = (function () {
+  return function theSumOf(number, value = 1) {
+    return number + value;
+  };
+})();
+
+console.log(theSumOf(23, 5));
