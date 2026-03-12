@@ -5,3 +5,4 @@ let numberCap = (function () {
 })();
 console.log(numberCap(12, 5));
 console.log(numberCap(120));
+console.log(numberCap(1224444));
