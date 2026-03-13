@@ -1,5 +1,5 @@
 var indexValue = [(x = 1), (d = 2), (f = 3)];
 
-let { a: x, b: d, c: f } = indexValue;
+const { x: a, d: b, f: c } = indexValue;
 
-console.log(cusn);
+console.log(indexValue);
