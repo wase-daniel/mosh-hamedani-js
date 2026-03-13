@@ -1,5 +1,3 @@
-const arr = [1 ,2 ,3];
+const nbr = ['1','3', '5'];
 
-const [3 , 5 , 6] = arr;
-console.log(arr)
-
+const [4 , 6 , 7] = nbr;
