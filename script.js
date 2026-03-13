@@ -1,7 +1,11 @@
-let pet = "Fluffy";
+let pet = {
+  name: "Fluffy",
+  age: 3,
+  type: "dog",
+};
 
-let breed = "kangal";
+let breed ={"kangal"};
 
-let alpha = pet.concat(" ", breed);
+let alpa = pet.concat(" ", pet);
 
-console.log(alpha);
+console.log(alpa);
