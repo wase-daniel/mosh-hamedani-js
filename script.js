@@ -4,7 +4,7 @@ let pet = {
   type: "dog",
 };
 
-let breed ={"kangal"};
+let breed = { kind: "kangal" };
 
 let alpa = pet.concat(" ", pet);
 
