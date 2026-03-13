@@ -1,2 +1,2 @@
-let age = "";
+let age = null;
 console.log(typeof age);
