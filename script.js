@@ -1,9 +1,5 @@
-let numberCap = (function () {
-  return function numberCap(number, value = 1) {
-    return number + value;
-  };
-})();
-console.log(numberCap(12, 5));
-console.log(numberCap(120));
-console.log(numberCap(12.24444));
-console.log(numberCap(1234635430));
+var indexValue = [(x = 1), (d = 2), (f = 3)];
+
+let cupapi = { a: x, b: d, c: f };
+
+console.log(indexValue);
