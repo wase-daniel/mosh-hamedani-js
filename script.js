@@ -1,2 +1,2 @@
 let age = 1n;
-console.log(typeof age);
+console.log(typeof e);
