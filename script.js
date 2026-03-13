@@ -2,4 +2,6 @@ let pet = "Fluffy";
 
 let breed = "kangal";
 
-pet.concat(" ", breed);
+let alpha = pet.concat(" ", breed);
+
+console.log(alpha);
