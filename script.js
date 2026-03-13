@@ -1,4 +1,4 @@
 const arr1 = ["🌬️", "🔥", "🌊"];
 
-const [earth, fire, water] = arr1;
-console.log(earth);
+const [earth, , water] = arr1;
+console.log(fire);
