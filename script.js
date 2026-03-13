@@ -1,2 +1,2 @@
-let age = 123354545346506459764976597560n;
+let age = 1n;
 console.log(typeof age);
