@@ -1,3 +1,4 @@
-const nbr = ['1','3', '5'];
+const arr1 = ["🌬️", "🔥", "🌊"];
 
-const [4 , 6 , 7] = nbr;
+const [earth, fire, water] = arr1;
+console.log(fire);
