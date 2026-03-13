@@ -1,2 +1,2 @@
-let age = true;
+let age = $;
 console.log(typeof age);
