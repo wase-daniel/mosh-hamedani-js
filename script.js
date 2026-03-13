@@ -1,11 +1,5 @@
-let pet = {
-  name: "Fluffy",
-  age: 3,
-  type: "dog",
-};
+let pet = "Fluffy";
+let breed = "kangal";
 
-let breed = { kind: "kangal" };
-
-let alpa = pet.concat(" ", pet);
-
+let alpa = pet.concat(" ", breed);
 console.log(alpa);
