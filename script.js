@@ -1,5 +1,5 @@
-var indexValue = [(x = 1), (d = 2), (f = 3)];
+const arr = [1 ,2 ,3];
 
-const { x: a, d: b, f: c } = indexValue;
+const [3 , 5 , 6] = arr;
+console.log(arr)
 
-console.log(indexValue);
