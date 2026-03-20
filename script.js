@@ -1,3 +1,3 @@
 const arr = ["water", "fire", "earth"];
-const [amazi, umuriro, igitaka] = arr;
-console.log(igitaka);
+const [amazi, umuriro] = arr;
+console.log(umuriro);
