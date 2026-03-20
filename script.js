@@ -1,3 +1,3 @@
 const arr = ["water", "fire", "earth"];
-const [amazi, , igitaka] = arr;
+const [amazi, umuriro, igitaka] = arr;
 console.log(igitaka);
