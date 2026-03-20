@@ -1,2 +1,3 @@
-let age = 1n;
-console.log(typeof e);
+const arr = ["water", "fire", "earth"];
+const [amzi, umuriro, ijyitaka] = arr;
+console.log(arr);
