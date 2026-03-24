@@ -1,3 +1,5 @@
-const arr = ["water", "fire", "earth"];
-const [amazi, ...sat] = arr;
-co;
+let myAge = 20;
+let humanDogRatio = 3;
+let myDogAge = myAge * humanDogRatio;
+
+console.log(myDogAge);
