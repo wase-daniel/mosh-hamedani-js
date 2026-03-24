@@ -1,3 +1,3 @@
 function increment() {
-  console.log("button clicke");
+  console.log("button click");
 }
