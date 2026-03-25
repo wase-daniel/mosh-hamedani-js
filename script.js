@@ -6,4 +6,4 @@ welcomeEl.innerText = greeting + name;
 
 welcomeEl = welcomeEl + " 👋";
 
-welcomeEl.innerText = greeting + name + 
+welcomeEl.innerText = greeting + name;
