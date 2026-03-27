@@ -13,5 +13,5 @@ function save() {
   // 3. Render the variable in the saveEl using innerText
   saveEl.innerText += combinerBoth;
 }
-// NB: Make sure to not delete the existing content
+// NB: Make sure to not delete the existing conte
 console.log(count);
