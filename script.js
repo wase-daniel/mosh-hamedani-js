@@ -10,8 +10,8 @@ function increment() {
 function save() {
   // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
   let combinerBoth = count + " - ";
-  // 3. Render the variable in the saveEl using innerText
+  // 3. Render the variable in the saveEl using i
   saveEl.innerText += combinerBoth;
 }
-// NB:
+
 console.log(count);
